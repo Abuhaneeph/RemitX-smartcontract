@@ -29,7 +29,7 @@ RemitX is a modular DeFi protocol for Bitcoin and multi-asset yield, lending, an
 
 ### 3. Swap
 
-- **Purpose:** Decentralized exchange for token swaps and liquidity provision, using ETH as the native token.
+- **Purpose:** Decentralized exchange for token swaps and liquidity provision, using TCORE2 as the native token.
 - **Features:**  
   - Pool-based swaps (ETH/ERC20, ERC20/ERC20)
   - Liquidity provider rewards
