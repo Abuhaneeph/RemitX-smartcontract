@@ -19,9 +19,9 @@ RemitX is a modular DeFi protocol for Bitcoin and multi-asset yield, lending, an
 
 ### 2. LendingPool
 
-- **Purpose:** Allows users to deposit BTC/lstBTC as collateral and borrow supported tokens, with interest accrual and health factor tracking.
+- **Purpose:** Allows users to deposit wBTC/lstBTC as collateral and borrow supported tokens, with interest accrual and health factor tracking.
 - **Features:**  
-  - Dual collateral system (BTC, lstBTC)
+  - Dual collateral system (wBTC, lstBTC)
   - Compound interest model
   - Borrow/repay with multiple tokens
   - Health factor & liquidation logic
@@ -46,7 +46,7 @@ RemitX is a modular DeFi protocol for Bitcoin and multi-asset yield, lending, an
 
 ### 5. BTCStaking
 
-- **Purpose:** Mock staking contract for BTC, mints lstBTC at a 1:1 ratio for testing.
+- **Purpose:** Mock staking contract for wBTC, mints lstBTC at a 1:1 ratio for testing.
 - **Features:**  
   - Stake/unstake logic
   - Reward minting
@@ -58,7 +58,7 @@ RemitX is a modular DeFi protocol for Bitcoin and multi-asset yield, lending, an
 
 - **Deposit:** Users deposit wBTC or LSTs into the YieldVault, which converts assets to lstBTC via the Custodian.
 - **Yield:** Vault participants earn yield from staking rewards, distributed periodically.
-- **Borrow:** Users can use their BTC/lstBTC as collateral in the LendingPool to borrow supported tokens.
+- **Borrow:** Users can use their wBTC/lstBTC as collateral in the LendingPool to borrow supported tokens.
 - **Swap:** The Swap contract enables token swaps and liquidity provision, rewarding providers.
 - **Conversion:** The Custodian contract handles all asset conversions between wBTC, LSTs, and lstBTC.
 
